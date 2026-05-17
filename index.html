@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile School LK | නිවස</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: "Iskoola Pota", "Nirmala UI", "Noto Sans Sinhala", sans-serif;
+            background: #f9f9f9; color: #333; line-height: 1.6;
+        }
+        .header {
+            background: #003d4d; color: white; padding: 20px; text-align: center;
+        }
+        .header h1 { font-size: 28pt; margin: 0; letter-spacing: 2px; }
+        .header p { font-size: 14pt; margin-top: 5px; opacity: 0.9; }
+        .nav {
+            background: #005f73; display: flex; flex-wrap: wrap; justify-content: center;
+        }
+        .nav a {
+            color: white; text-decoration: none; padding: 12px 20px;
+            font-size: 16px; transition: background 0.3s;
+        }
+        .nav a:hover { background: #007b8f; }
+        .hero {
+            background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+            padding: 40px 20px; text-align: center;
+        }
+        .hero h2 { font-size: 24pt; color: #003d4d; margin-bottom: 10px; }
+        .hero p { font-size: 16pt; max-width: 700px; margin: 0 auto; color: #004d5a; }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px; padding: 30px 20px; max-width: 1000px; margin: auto;
+        }
+        .card {
+            background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 25px; text-align: center; transition: transform 0.2s;
+        }
+        .card:hover { transform: translateY(-4px); }
+        .card h3 { color: #007b8f; margin-bottom: 10px; font-size: 20px; }
+        .card p { font-size: 14px; color: #555; }
+        .card a {
+            display: inline-block; margin-top: 12px; padding: 8px 18px;
+            background: #007b8f; color: white; text-decoration: none; border-radius: 20px;
+            font-size: 14px;
+        }
+        .card a:hover { background: #005f73; }
+        .footer {
+            background: #003d4d; color: white; text-align: center; padding: 15px;
+            margin-top: 30px; font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>📱 Mobile School LK</h1>
+    <p>ඕනෑම තැනක සිට, ඕනෑම වේලාවක – නොමිලේ ඉගෙන ගන්න</p>
+</div>
+
+<div class="nav">
+    <a href="subjects.html">📄 ප්‍රශ්න පත්‍ර</a>
+    <a href="#">📘 විෂය නිර්දේශ</a>
+    <a href="#">📝 පාඩම් අනුව ප්‍රශ්න</a>
+    <a href="#">📋 කෙටි සටහන්</a>
+</div>
+
+<div class="hero">
+    <h2>ශ්‍රි ලංකාවේ සෑම සිසුවෙකු සදාහාම නොමිලේ භාවිතා කල සම්පූර්ණ අධ්‍යයන මෙවලම</h2>
+    <p>මෙම වේදිකාව ඔබට පසුගිය විභාග ප්‍රශ්න පත්‍ර, ආදර්ශ ප්‍රශ්න පත්‍ර, විෂය නිර්දේශ, පාඩමෙන් පාඩමට වෙන් කළ ප්‍රශ්න, කෙටි සටහන් සහ තවත් බොහෝ දේ සම්පූර්ණයෙන්ම නොමිලේ සපයයි.</p>
+</div>
+
+<div class="features">
+    <div class="card">
+        <h3>📄 ප්‍රශ්න පත්‍ර</h3>
+        <p>පසුගිය විභාග හා ආදර්ශ ප්‍රශ්න පත්‍ර, විෂය අනුව බලන්න.</p>
+        <a href="grades.html">ගවේෂණය කරන්න</a>
+    </div>
+    <div class="card">
+        <h3>📘 විෂය නිර්දේශ</h3>
+        <p>නවතම A/L විෂය නිර්දේශ PDF ආකාරයෙන් බාගන්න.</p>
+        <a href="#">ඉක්මනින්...</a>
+    </div>
+    <div class="card">
+        <h3>📝 පාඩම් ප්‍රශ්න</h3>
+        <p>සෑම පාඩමක් අවසානයේදීම පුහුණු වීමට ප්‍රශ්න එකතුවක්.</p>
+        <a href="#">ඉක්මනින්...</a>
+    </div>
+    <div class="card">
+        <h3>📋 කෙටි සටහන්</h3>
+        <p>විභාගයට පෙර ඉක්මන් පුනරීක්ෂණය සඳහා කෙටි සටහන්.</p>
+        <a href="#">ඉක්මනින්...</a>
+    </div>
+</div>
+
+<div class="footer">
+    © 2025 Mobile School LK | සියලුම හිමිකම් ඇවිරිණි. අනවසරයෙන් වාණිජ භාවිතය තහනම්.
+</div>
+
+</body>
+</html>

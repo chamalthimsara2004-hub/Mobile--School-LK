@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ශ්‍රේණිය තෝරන්න | Mobile School LK</title>
+    <style>
+        body {
+            font-family: "Iskoola Pota", "Nirmala UI", "Noto Sans Sinhala", sans-serif;
+            background: #f4f4f4; margin: 0; padding: 0;
+        }
+        .container {
+            max-width: 800px; margin: 30px auto; background: white;
+            border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+            padding: 25px; text-align: center;
+        }
+        h1 { color: #003d4d; margin-bottom: 10px; }
+        p { color: #555; margin-bottom: 25px; }
+        .grade-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 15px; margin-bottom: 30px;
+        }
+        .grade-btn {
+            background: #007b8f; color: white; border: none;
+            padding: 15px 10px; border-radius: 8px; font-size: 18px;
+            font-weight: bold; cursor: pointer; text-decoration: none;
+            transition: background 0.3s, transform 0.2s;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .grade-btn:hover { background: #005f73; transform: scale(1.05); }
+        .grade-btn.disabled {
+            background: #b0bec5; cursor: not-allowed; pointer-events: none;
+            color: #eceff1;
+        }
+        .back { margin-top: 20px; }
+        .back a { font-size: 14px; color: #003d4d; text-decoration: none; }
+        .back a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📚 ශ්‍රේණිය තෝරන්න</h1>
+    <p>ඔබට අවශ්‍ය ශ්‍රේණිය තෝරා ප්‍රශ්න පත්‍ර ලබාගන්න.</p>
+
+    <div class="grade-grid">
+        <a href="#" class="grade-btn disabled">1 ශ්‍රේණිය</a>
+        <a href="#" class="grade-btn disabled">2 ශ්‍රේණිය</a>
+        <a href="#" class="grade-btn disabled">3 ශ්‍රේණිය</a>
+        <a href="#" class="grade-btn disabled">4 ශ්‍රේණිය</a>
+        <a href="#" class="grade-btn disabled">5 ශ්‍රේණිය</a>
+        <a href="#" class="grade-btn disabled">6 ශ්‍රේණිය</a>
+        <a href="#" class="grade-btn disabled">7 ශ්‍රේණිය</a>
+        <a href="#" class="grade-btn disabled">8 ශ්‍රේණිය</a>
+        <a href="#" class="grade-btn disabled">9 ශ්‍රේණිය</a>
+        <a href="#" class="grade-btn disabled">10 ශ්‍රේණිය</a>
+        <a href="#" class="grade-btn disabled">11 ශ්‍රේණිය</a>
+        <a href="al_subjects.html" class="grade-btn">12 ශ්‍රේණිය</a>
+        <a href="subjects.html" class="grade-btn">13 ශ්‍රේණිය</a>
+    </div>
+
+    <div class="back">
+        <a href="index.html">← ආපසු මුල් පිටුවට</a>
+    </div>
+</div>
+</body>
+</html>

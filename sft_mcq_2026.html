@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 අ.පො.ස. (උ.පෙළ) SFT ආදර්ශ විභාගය - I කොටස</title>
+    <style>
+        body {
+            background: white;
+        }
+        .paper {
+            width: 210mm;                   /* A4 පළල */
+            min-height: 297mm;              /* A4 උස */
+            margin: 30px auto;              /* මැදට ගෙන ඒම */
+            background: white;
+            box-shadow: 0 2 12px rgba(0,0,0,0.25);   /* පිටු සෙවනැල්ල */
+            border: 1px solid #bbb;
+            padding: 18mm;
+            box-sizing: border-box;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h3 {
+            margin: 0;
+            font-size: 18pt;
+        }
+        .header h2 {
+            margin: 10px 0;
+            font-size: 22pt;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+        }
+        .details {
+            margin: 15px 0;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        .instructions {
+            border: 1px solid #000;
+            padding: 12px;
+            margin-bottom: 20px;
+            font-size: 14pt;
+        }
+        .instructions p {
+            margin: 4px 0;
+        }
+        .question {
+            margin-bottom: 16px;
+            padding-left: 18px;
+        }
+        .question p {
+            margin: 0 0 6px 0;
+        }
+        .options {
+            margin-left: 25px;
+            list-style-type: none;  /* bullet points නැති ලැයිස්තුවක් */
+            padding-left: 0;
+        }
+        .options li {
+            margin: 2px 0;
+        }
+        hr.sep {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px dashed #333;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-style: italic;
+        }
+    @media (max-width: 750px) {
+    body {
+        background: white;      /* ජංගමයේ අළු පසුබිම අවශ්‍ය නැතිනම් */
+    }
+
+    .paper {
+        width: 100%;            /* පූර්ණ පළල */
+        min-height: auto;
+        margin: 0;
+        1px solid #ccc;
+        box-shadow: none;
+        padding: 10px;
+    }
+}
+    
+        @media print {
+            body { margin: 0; background: white; }
+            .paper { border: none; padding: 0; }
+        }
+    .watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-20deg);
+    font-size: min(80px, 4vw);          /* තිරයේ පළල අනුව කුඩා වේ */
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.06);         /* තිරයට සියුම් */
+    pointer-events: none;
+    z-index: 9999;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 1.3;                   /* පේළි දෙක අතර පරතරය */
+}
+
+@media print {
+    .watermark {
+        color: rgba(0, 0, 0, 0.15) !important;
+        font-size: min(70px, 10vw);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="watermark">Moblie School Lk<br>අනවසරයෙන් මුද්‍රණය කිරීම තහනම්</div>
+<div class="paper">
+
+<div class="header">
+    <h3>අ.පො.ස. (උසස් පෙළ) විභාගය</h3>
+    <h2>Science for Technology (SFT)</h2>
+    <h3>I කොටස - බහුවරණ ප්‍රශ්න පත්‍රය</h3>
+  <h3>Moblie School LK</h3>
+    <p><strong>ආදර්ශ විභාගය - 2026</strong></p>
+</div>
+
+<div class="details">
+    <span>කාලය: පැය 1 යි</span>
+    <span>ප්‍රශ්න ගණන: 50</span>
+    <span>උපරිම ලකුණු: 50</span>
+</div>
+
+<div class="instructions">
+    <p><strong>උපදෙස්:</strong></p>
+    <p>• සියලුම ප්‍රශ්න සඳහා පිළිතුරු සැපයිය යුතුය.</p>
+    <p>• එක් ප්‍රශ්නයක් සඳහා නිවැරදි පිළිතුර ලෙස (1), (2), (3), (4) හෝ (5) යන්නෙන් එකක් තෝරන්න.</p>
+    <p>• පිළිතුරු වෙනම පිළිතුරු පත්‍රයක සටහන් කළ යුතුය.</p>
+    <p>• වැරදි පිළිතුරු සඳහා ලකුණු අඩු නොකෙරේ.</p>
+</div>
+
+<!-- ============ ප්‍රශ්න 01 - 50 ============ -->
+<div class="question">
+    <p>01. SI පද්ධතියේ උෂ්ණත්වයේ මූලික ඒකකය කුමක්ද?</p>
+    <ul class="options">
+        <li>(1) සෙල්සියස්</li>
+        <li>(2) ෆැරන්හයිට්</li>
+        <li>(3) කෙල්වින්</li>
+        <li>(4) ජූල්</li>
+        <li>(5) පැස්කල්</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>02. බලයේ මාන සූත්‍රය වන්නේ,</p>
+    <ul class="options">
+        <li>(1) [MLT⁻¹]</li>
+        <li>(2) [MLT⁻²]</li>
+        <li>(3) [ML²T⁻²]</li>
+        <li>(4) [ML²T⁻³]</li>
+        <li>(5) [MLT⁻³]</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>03. තත්පර 2ක් තුළ 10 m s⁻¹ සිට 30 m s⁻¹ දක්වා ඒකාකාරව වැඩිවන ප්‍රවේගයක් ඇති වස්තුවක ත්වරණය කොපමණද?</p>
+    <ul class="options">
+        <li>(1) 5 m s⁻²</li>
+        <li>(2) 10 m s⁻²</li>
+        <li>(3) 15 m s⁻²</li>
+        <li>(4) 20 m s⁻²</li>
+        <li>(5) 25 m s⁻²</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>04. නිදහසේ වැටෙන වස්තුවක චලිතය සඳහා ප්‍රවේග-කාල ප්‍රස්තාරයේ හැඩය,</p>
+    <ul class="options">
+        <li>(1) තිරස් රේඛාවකි</li>
+        <li>(2) ඍණ අනුක්‍රමණයක් සහිත රේඛාවකි</li>
+        <li>(3) ධන අනුක්‍රමණයක් සහිත රේඛාවකි</li>
+        <li>(4) පරාවලයකි</li>
+        <li>(5) වක්‍රයකි</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>05. ස්කන්ධය 0.5 kg වන බෝලයක් 20 m s⁻¹ ප්‍රවේගයෙන් පහර දුන් විට එහි චාලක ශක්තිය,</p>
+    <ul class="options">
+        <li>(1) 5 J</li>
+        <li>(2) 10 J</li>
+        <li>(3) 50 J</li>
+        <li>(4) 100 J</li>
+        <li>(5) 200 J</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>06. පහත සඳහන් කුමන ප්‍රකාශය යාන්ත්‍රික ශක්ති සංස්ථිති නියමය නිවැරදිව විස්තර කරයිද?</p>
+    <ul class="options">
+        <li>(1) සම්පූර්ණ ශක්තිය සෑම විටම වැඩිවේ</li>
+        <li>(2) ඝර්ෂණය නොමැති විට විභව ශක්තිය + චාලක ශක්තිය නියතයි</li>
+        <li>(3) චාලක ශක්තිය නියතයි</li>
+        <li>(4) විභව ශක්තිය සෑම විටම ශුන්‍ය වේ</li>
+        <li>(5) ඝර්ෂණය තිබියදීත් සම්පූර්ණ යාන්ත්‍රික ශක්තිය නියතයි</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>07. 1000 kg ස්කන්ධයක් සහිත මෝටර් රථයක් 20 m s⁻¹ වේගයෙන් ගමන් කරන විට එහි ගම්‍යතාවය,</p>
+    <ul class="options">
+        <li>(1) 20 000 kg m s⁻¹</li>
+        <li>(2) 2 000 kg m s⁻¹</li>
+        <li>(3) 500 kg m s⁻¹</li>
+        <li>(4) 50 000 kg m s⁻¹</li>
+        <li>(5) 100 000 kg m s⁻¹</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>08. ජලයේ ඝනත්වය 1000 kg m⁻³ නම්, 2 m³ ජලයේ ස්කන්ධය,</p>
+    <ul class="options">
+        <li>(1) 500 kg</li>
+        <li>(2) 1000 kg</li>
+        <li>(3) 2000 kg</li>
+        <li>(4) 3000 kg</li>
+        <li>(5) 4000 kg</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>09. හුක්ගේ නියමය යෙදෙන්නේ,</p>
+    <ul class="options">
+        <li>(1) ප්‍රත්‍යාස්ථ සීමාව ඉක්මවූ විට පමණි</li>
+        <li>(2) ප්‍රත්‍යාස්ථ සීමාව තුළදී පමණි</li>
+        <li>(3) සියලු අවස්ථාවන්හිදී</li>
+        <li>(4) ප්ලාස්ටික් විරූපණයේදී පමණි</li>
+        <li>(5) බිඳුම් ලක්ෂ්‍යයෙන් පසුව පමණි</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>10. පහත කුමන උපකරණය පීඩනය මැනීමට භාවිතා කරයිද?</p>
+    <ul class="options">
+        <li>(1) තාපමාපකය</li>
+        <li>(2) වේගමාපකය</li>
+        <li>(3) බැරෝමීටරය</li>
+        <li>(4) හයිග්‍රොමීටරය</li>
+        <li>(5) අමීටරය</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>11. ජලය 4°C දී උපරිම ඝනත්වයක් ගනී. මෙයට හේතුව,</p>
+    <ul class="options">
+        <li>(1) ජල අණු ප්‍රසාරණය වීම</li>
+        <li>(2) හයිඩ්‍රජන් බන්ධනවල ප්‍රශස්ත සැකැස්ම</li>
+        <li>(3) අණුක චලිතය නැතිවීම</li>
+        <li>(4) ඉලෙක්ට්‍රෝන වින්‍යාසය වෙනස්වීම</li>
+        <li>(5) සියලු අණු අයනීකරණය වීම</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>12. 100 g ජලය 20°C සිට 100°C දක්වා රත් කිරීමට අවශ්‍ය තාප ප්‍රමාණය ආසන්න වශයෙන් (ජලයේ විශිෂ්ට තාප ධාරිතාව 4200 J kg⁻¹ K⁻¹),</p>
+    <ul class="options">
+        <li>(1) 3360 J</li>
+        <li>(2) 4200 J</li>
+        <li>(3) 8400 J</li>
+        <li>(4) 33600 J</li>
+        <li>(5) 42000 J</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>13. පරිපූර්ණ වායුවක පීඩනය දෙගුණ කර පරිමාව අඩක් කළ විට (උෂ්ණත්වය නියතව), උෂ්ණත්වය,</p>
+    <ul class="options">
+        <li>(1) දෙගුණ වේ</li>
+        <li>(2) අඩක් වේ</li>
+        <li>(3) නියතව පවතී</li>
+        <li>(4) හතර ගුණයක් වේ</li>
+        <li>(5) හතරෙන් එකක් වේ</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>14. තාපය හුවමාරු වීමේ ක්‍රම තුන නම්,</p>
+    <ul class="options">
+        <li>(1) සංවහනය, විකිරණය, සංඝනනය</li>
+        <li>(2) සංවහනය, විකිරණය, වාෂ්පීකරණය</li>
+        <li>(3) සංවහනය, සන්නයනය, විකිරණය</li>
+        <li>(4) සන්නයනය, උත්පතනය, විකිරණය</li>
+        <li>(5) විසරණය, සංවහනය, විකිරණය</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>15. ශබ්ද තරංග කුමන වර්ගයේ තරංගද?</p>
+    <ul class="options">
+        <li>(1) තීර්‍යක් තරංග</li>
+        <li>(2) විද්‍යුත් චුම්බක තරංග</li>
+        <li>(3) කල්පිත තරංග</li>
+        <li>(4) අනුදෛර්ඝ තරංග</li>
+        <li>(5) ධ්‍රැවිත තරංග</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>16. 340 m s⁻¹ වේගයෙන් ගමන් කරන ශබ්දයක සංඛ්‍යාතය 1700 Hz නම් තරංග ආයාමය,</p>
+    <ul class="options">
+        <li>(1) 0.1 m</li>
+        <li>(2) 0.2 m</li>
+        <li>(3) 0.5 m</li>
+        <li>(4) 1.0 m</li>
+        <li>(5) 2.0 m</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>17. ආලෝකයේ වර්ණ විකිරණය සිදුවන උපකරණය,</p>
+    <ul class="options">
+        <li>(1) දර්පණය</li>
+        <li>(2) ප්‍රිස්මය</li>
+        <li>(3) කාචය</li>
+        <li>(4) උත්තල දර්පණය</li>
+        <li>(5) අවතල කාචය</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>18. විද්‍යුත් ධාරාවේ SI ඒකකය,</p>
+    <ul class="options">
+        <li>(1) වෝල්ට්</li>
+        <li>(2) ඕම්</li>
+        <li>(3) වොට්</li>
+        <li>(4) ඇම්පියර්</li>
+        <li>(5) කූලෝම්</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>19. ඕම්ගේ නියමය නිවැරදිව දැක්වෙන්නේ,</p>
+    <ul class="options">
+        <li>(1) V = IR</li>
+        <li>(2) P = IV</li>
+        <li>(3) R = ρL/A</li>
+        <li>(4) Q = It</li>
+        <li>(5) E = IR + Ir</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>20. 2 Ω, 3 Ω, 6 Ω ප්‍රතිරෝධ තුනක් සමාන්තරගතව සම්බන්ධ කළ විට සමක ප්‍රතිරෝධය,</p>
+    <ul class="options">
+        <li>(1) 0.5 Ω</li>
+        <li>(2) 1 Ω</li>
+        <li>(3) 2 Ω</li>
+        <li>(4) 6 Ω</li>
+        <li>(5) 11 Ω</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>21. අර්ධ සන්නායකයකට උදාහරණයක් වන්නේ,</p>
+    <ul class="options">
+        <li>(1) තඹ</li>
+        <li>(2) රිදී</li>
+        <li>(3) සිලිකන්</li>
+        <li>(4) රබර්</li>
+        <li>(5) වීදුරු</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>22. p-n සන්ධි ඩයෝඩයක ප්‍රධාන කාර්යය,</p>
+    <ul class="options">
+        <li>(1) ධාරාව වර්ධක කිරීම</li>
+        <li>(2) ප්‍රත්‍යාවර්ත ධාරාව සරල ධාරාවකට හැරවීම</li>
+        <li>(3) වෝල්ටීයතාව නියත කිරීම</li>
+        <li>(4) සංඛ්‍යාතය වෙනස් කිරීම</li>
+        <li>(5) ප්‍රතිරෝධය වැඩි කිරීම</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>23. ලොජික් ද්වාරයක් සඳහා ප්‍රතිදානය 1 වන්නේ ආදාන දෙකම 1 වූ විට පමණි. එය කුමන ද්වාරයක්ද?</p>
+    <ul class="options">
+        <li>(1) OR</li>
+        <li>(2) AND</li>
+        <li>(3) NOT</li>
+        <li>(4) NOR</li>
+        <li>(5) XOR</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>24. පරමාණුවක න්‍යෂ්ටිය සමන්විත වන්නේ,</p>
+    <ul class="options">
+        <li>(1) ඉලෙක්ට්‍රෝන සහ ප්‍රෝටෝන පමණි</li>
+        <li>(2) ප්‍රෝටෝන සහ නියුට්‍රෝන පමණි</li>
+        <li>(3) ඉලෙක්ට්‍රෝන සහ නියුට්‍රෝන පමණි</li>
+        <li>(4) ප්‍රෝටෝන පමණි</li>
+        <li>(5) ඉලෙක්ට්‍රෝන, ප්‍රෝටෝන, නියුට්‍රෝන</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>25. කාබන්-14 කාල නිර්ණ ක්‍රමය භාවිතා කරන්නේ,</p>
+    <ul class="options">
+        <li>(1) ලෝහවල වයස සෙවීමට</li>
+        <li>(2) පාෂාණවල වයස සෙවීමට</li>
+        <li>(3) පුරාවිද්‍යාත්මක කාබනික ද්‍රව්‍යවල වයස සෙවීමට</li>
+        <li>(4) තාරකාවල දුර මැනීමට</li>
+        <li>(5) සාගර ගැඹුර මැනීමට</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>26. එදිනෙදා භාවිතා වන 230 V ප්‍රත්‍යාවර්ත වෝල්ටීයතාවයේ rms අගය කුමක්ද?</p>
+    <ul class="options">
+        <li>(1) 230 V</li>
+        <li>(2) 115 V</li>
+        <li>(3) 325 V</li>
+        <li>(4) 460 V</li>
+        <li>(5) 0 V</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>27. ට්‍රාන්ස්ෆෝමරයක් ක්‍රියාත්මක වන්නේ කුමන මූලධර්මය මතද?</p>
+    <ul class="options">
+        <li>(1) ස්වයං ප්‍රේරණය</li>
+        <li>(2) අන්‍යෝන්‍ය ප්‍රේරණය</li>
+        <li>(3) ප්‍රකාශ විද්‍යුත් ආචරණය</li>
+        <li>(4) තාපජ ආචරණය</li>
+        <li>(5) හෝල් ආචරණය</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>28. 100 W, 230 V බල්බයක් හරහා ගලා යන ධාරාව ආසන්න වශයෙන්,</p>
+    <ul class="options">
+        <li>(1) 0.23 A</li>
+        <li>(2) 0.43 A</li>
+        <li>(3) 2.3 A</li>
+        <li>(4) 4.3 A</li>
+        <li>(5) 23 A</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>29. ශ්‍රේණිගත පරිපථයක විදුලි බුබුළු දෙකක් සම්බන්ධ කර ඇත. එක් බුබුළක් පිච්චී ගිය විට,</p>
+    <ul class="options">
+        <li>(1) අනෙක් බුබුළ වඩාත් දීප්තිමත් වේ</li>
+        <li>(2) අනෙක් බුබුළ ද දැල්වීම නවතී</li>
+        <li>(3) අනෙක් බුබුළ සාමාන්‍ය පරිදි දැල්වේ</li>
+        <li>(4) කෙටි පරිපථයක් ඇතිවේ</li>
+        <li>(5) වෝල්ටීයතාව දෙගුණ වේ</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>30. ඉලෙක්ට්‍රොනික වින්‍යාසය 2,8,1 ඇති මූලද්‍රව්‍යය වන්නේ,</p>
+    <ul class="options">
+        <li>(1) හීලියම්</li>
+        <li>(2) ලිතියම්</li>
+        <li>(3) සෝඩියම්</li>
+        <li>(4) පොටෑසියම්</li>
+        <li>(5) මැග්නීසියම්</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>31. පහත කුමන කිරණ වර්ගයකට විනිවිද යාමේ හැකියාව වැඩිමද?</p>
+    <ul class="options">
+        <li>(1) ඇල්ෆා</li>
+        <li>(2) බීටා</li>
+        <li>(3) ගැමා</li>
+        <li>(4) X-කිරණ</li>
+        <li>(5) පාරජම්බුල</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>32. ප්‍රකාශ විද්‍යුත් ආචරණය පැහැදිලි කිරීමට සමත් වූ විද්‍යාඥයා,</p>
+    <ul class="options">
+        <li>(1) අයිසැක් නිව්ටන්</li>
+        <li>(2) ජේම්ස් ක්ලාක් මැක්ස්වෙල්</li>
+        <li>(3) ඇල්බට් අයින්ස්ටයින්</li>
+        <li>(4) නීල්ස් බෝර්</li>
+        <li>(5) මැක්ස් ප්ලාන්ක්</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>33. ශක්ති ක්වොන්ටමයක් ලෙස හඳුන්වන්නේ,</p>
+    <ul class="options">
+        <li>(1) ඉලෙක්ට්‍රෝනය</li>
+        <li>(2) ප්‍රෝටෝනය</li>
+        <li>(3) ෆෝටෝනය</li>
+        <li>(4) නියුට්‍රෝනය</li>
+        <li>(5) පොසිටෝනය</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>34. CD ප්ලේයරයක භාවිතා වන ආලෝක ප්‍රභවය,</p>
+    <ul class="options">
+        <li>(1) සාමාන්‍ය බල්බය</li>
+        <li>(2) සූර්යාලෝකය</li>
+        <li>(3) ලේසර්</li>
+        <li>(4) LED</li>
+        <li>(5) ෆ්ලෑෂ් ලයිට්</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>35. බ්රවුන් චලිතයෙන් ඔප්පු වන්නේ,</p>
+    <ul class="options">
+        <li>(1) ඉලෙක්ට්‍රෝනවල පැවැත්ම</li>
+        <li>(2) පරමාණුවල හිස් අවකාශය</li>
+        <li>(3) අණුවල අහඹු චලිතය</li>
+        <li>(4) ගුරුත්වාකර්ෂණය</li>
+        <li>(5) ආලෝකයේ තරංග ස්වභාවය</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>36. ශබ්ද තරංගයක් රික්තයක් හරහා ගමන් කළ නොහැකි වීමට හේතුව,</p>
+    <ul class="options">
+        <li>(1) සංඛ්‍යාතය ඉතා අඩු බැවින්</li>
+        <li>(2) තරංග ආයාමය ඉතා විශාල බැවින්</li>
+        <li>(3) ශබ්දය යාන්ත්‍රික තරංගයක් බැවින්</li>
+        <li>(4) ශක්තිය අඩු බැවින්</li>
+        <li>(5) ආලෝකයට වඩා වේගය අඩු බැවින්</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>37. පහත සඳහන් කුමන තාක්ෂණික ක්‍රමය අධෝරක්ත කිරණ භාවිතා කරයිද?</p>
+    <ul class="options">
+        <li>(1) MRI ස්කෑන්</li>
+        <li>(2) X-ray ඡායාරූප</li>
+        <li>(3) රාත්‍රී දර්ශන කැමරා</li>
+        <li>(4) පාරජම්බුල පිරිපහදුව</li>
+        <li>(5) රේඩියෝ තරංග සන්නිවේදනය</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>38. සූර්ය කෝෂයක් ආලෝක ශක්තිය සෘජුවම පරිවර්තනය කරන්නේ,</p>
+    <ul class="options">
+        <li>(1) තාප ශක්තියට</li>
+        <li>(2) චාලක ශක්තියට</li>
+        <li>(3) විද්‍යුත් ශක්තියට</li>
+        <li>(4) රසායනික ශක්තියට</li>
+        <li>(5) න්‍යෂ්ටික ශක්තියට</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>39. ඩිජිටල් පරිපථයක් තුළ හඳුනාගන්නා තාර්කික මට්ටම් දෙක වන්නේ,</p>
+    <ul class="options">
+        <li>(1) 0 V සහ 5 V</li>
+        <li>(2) අඩු (0) සහ ඉහළ (1)</li>
+        <li>(3) ධන සහ ඍණ</li>
+        <li>(4) AC සහ DC</li>
+        <li>(5) ප්‍රතිසම සහ සංඛ්‍යාංක</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>40. ජාන තොරතුරු රැගෙන යන අණුව,</p>
+    <ul class="options">
+        <li>(1) ප්‍රෝටීන</li>
+        <li>(2) කාබෝහයිඩ්‍රේට</li>
+        <li>(3) ලිපිඩ</li>
+        <li>(4) DNA</li>
+        <li>(5) ATP</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>41. සරල අවලම්බයක ආවර්ත කාලය රඳා නොපවතින්නේ,</p>
+    <ul class="options">
+        <li>(1) දිග මත</li>
+        <li>(2) ගුරුත්වජ ත්වරණය මත</li>
+        <li>(3) විස්තාරය මත (කුඩා කෝණ සඳහා)</li>
+        <li>(4) ස්කන්ධය මත</li>
+        <li>(5) අවලම්බයේ හැඩය මත</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>42. භූ ස්ථායි චන්ද්‍රිකාවක ආවර්ත කාලය ආසන්න වශයෙන්,</p>
+    <ul class="options">
+        <li>(1) පැය 1 යි</li>
+        <li>(2) පැය 12 යි</li>
+        <li>(3) පැය 24 යි</li>
+        <li>(4) පැය 48 යි</li>
+        <li>(5) සතියකි</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>43. 500 N බරක් එසවීමට භාවිතා කළ යුත්තේ කුමන සරල යන්ත්‍රයද? (ඝර්ෂණය නොසලකා)</p>
+    <ul class="options">
+        <li>(1) අනුක්‍රමණය 1:2 කප්පියක්</li>
+        <li>(2) යාන්ත්‍රික වාසිය 5 ක් ඇති ලීවරයක්</li>
+        <li>(3) 500 N වෑයමක් අවශ්‍ය ආනත තලයක්</li>
+        <li>(4) යාන්ත්‍රික වාසිය 0.5ක් ඇති පද්ධතියක්</li>
+        <li>(5) ඉස්කුරුප්පු ඇණයක්</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>44. ලෝහයක ප්‍රතිරෝධකතාව උෂ්ණත්වය සමඟ වෙනස් වන ආකාරය,</p>
+    <ul class="options">
+        <li>(1) උෂ්ණත්වය වැඩිවත්ම අඩුවේ</li>
+        <li>(2) උෂ්ණත්වය වැඩිවත්ම වැඩිවේ</li>
+        <li>(3) වෙනස් නොවේ</li>
+        <li>(4) පළමුව වැඩිවී පසුව අඩුවේ</li>
+        <li>(5) උෂ්ණත්වය මත රඳා නොපවතී</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>45. ෆියුස් එකක් භාවිතා කරන්නේ,</p>
+    <ul class="options">
+        <li>(1) වෝල්ටීයතාව වැඩි කිරීමට</li>
+        <li>(2) අධි ධාරාවෙන් පරිපථය ආරක්ෂා කිරීමට</li>
+        <li>(3) ආලෝකය නිපදවීමට</li>
+        <li>(4) ප්‍රතිරෝධය අඩු කිරීමට</li>
+        <li>(5) ශක්තිය ගබඩා කිරීමට</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>46. Wi-Fi තාක්ෂණය ප්‍රධාන වශයෙන් භාවිතා කරන්නේ කුමන ආකාරයේ විද්‍යුත් චුම්බක තරංගද?</p>
+    <ul class="options">
+        <li>(1) අධෝරක්ත</li>
+        <li>(2) පාරජම්බුල</li>
+        <li>(3) ක්ෂුද්‍ර තරංග</li>
+        <li>(4) X-කිරණ</li>
+        <li>(5) රේඩියෝ තරංග</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>47. බ්ලූටූත් සන්නිවේදනය සඳහා භාවිතා වන සංඛ්‍යාත පරාසය,</p>
+    <ul class="options">
+        <li>(1) 2.4 GHz</li>
+        <li>(2) 5 GHz</li>
+        <li>(3) 100 MHz</li>
+        <li>(4) 900 MHz</li>
+        <li>(5) 1.8 GHz</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>48. පරිසර හිතකාමී බලශක්ති ප්‍රභවයක් නොවන්නේ,</p>
+    <ul class="options">
+        <li>(1) සුළං බලය</li>
+        <li>(2) සූර්ය බලය</li>
+        <li>(3) ගල් අඟුරු</li>
+        <li>(4) ජල විදුලිය</li>
+        <li>(5) භූ තාප ශක්තිය</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>49. යම් මූලද්‍රව්‍යයක සමස්ථානික අතර වෙනස පවතින්නේ,</p>
+    <ul class="options">
+        <li>(1) ඉලෙක්ට්‍රෝන ගණන</li>
+        <li>(2) ප්‍රෝටෝන ගණන</li>
+        <li>(3) නියුට්‍රෝන ගණන</li>
+        <li>(4) ඉලෙක්ට්‍රෝන වින්‍යාසය</li>
+        <li>(5) රසායනික ගුණ</li>
+    </ul>
+</div>
+
+<div class="question">
+    <p>50. 'LED' යනු,</p>
+    <ul class="options">
+        <li>(1) අඩු ශක්ති ඩයෝඩය</li>
+        <li>(2) ආලෝක විමෝචක ඩයෝඩය</li>
+        <li>(3) විශාල ඉලෙක්ට්‍රෝන ඩයෝඩය</li>
+        <li>(4) රේඛීය විමෝචක ඩයෝඩය</li>
+        <li>(5) ලේසර් විමෝචක ඩයෝඩය</li>
+    </ul>
+</div>
+
+<div class="footer">
+    <p>*** Moblie School LK ***</p>
+</div>
+
+</div> <!-- /paper -->
+</body>
+</html>
